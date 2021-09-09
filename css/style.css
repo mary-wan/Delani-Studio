@@ -39,3 +39,6 @@ p {
 .description1, .description2, .description3{
     display: none;
 }
+.portfolio{
+    text-align: center;
+}
