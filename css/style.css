@@ -9,8 +9,9 @@ body {
     background-repeat: no-repeat;
     color: white;
     text-align: center;
-    padding-top: 300px;   
+    padding-top: 300px;
 }
+
 #mouse {
     margin-top: 150px;
 }
@@ -22,64 +23,101 @@ body {
 p {
     font-size: 18px;
 }
-.service{
+
+.service {
     background-image: url("../assets/backgrounds/s_image.jpg");
     background-repeat: no-repeat;
     color: white;
     text-align: center;
-    height: 400px;
+    height: 450px;
     padding-top: 130px;
     padding-left: 10px;
     padding-right: 10px;
     width: 100%;
 }
-.what_we_do{
+
+.what_we_do {
     justify-content: space-between;
     text-align: center;
 }
-.description1, .description2, .description3{
+
+.description1,
+.description2,
+.description3 {
     display: none;
 }
-.portfolio{
-    text-align: center;
+
+.portfolio {
+    text-align: center;   
+    overflow: hidden;
 }
-.contact_us{
+.contact_us {
     background-image: url("../assets/backgrounds/c_image.jpg");
     background-repeat: no-repeat;
     color: white;
-    height:700px ;
+    height: 700px;
     text-align: center;
     width: 100%;
-   
+
 }
-.contact_us h2{
+
+.contact_us h2 {
     font-weight: 700;
 }
-.row{
+
+.row {
     justify-content: center;
 }
-input,textarea{
+
+input,
+textarea {
     background-color: transparent;
     color: white;
 }
-::placeholder{
+
+::placeholder {
     color: white;
 }
-.detail input{
+
+.detail input {
     overflow: hidden;
     width: 90%;
 }
-.contact_us textarea{
+
+.contact_us textarea {
     width: 60%;
 }
-.contact_us input,.contact_us textarea{
+
+.contact_us input,
+.contact_us textarea {
     border: solid 1px;
     border-color: white;
 }
-.social{
-    
+
+.social {
+
     text-align: center;
 }
-.social img{
-    padding:10px;
+
+.social img {
+    padding: 10px;
+}
+
+#work1_desc,
+#work2_desc,
+#work3_desc,
+#work4_desc,
+#work5_desc,
+#work6_desc,
+#work7_desc,
+#work8_desc {
+    height: 270px;
+    width: 330px;
+    text-align: center;
+    padding-top: 100px;
+    margin-top: -300px;
+    background-color: rgb(255, 255, 255, 0.2);
+    position: absolute;
+    color: white;
+    display: none;
 }
