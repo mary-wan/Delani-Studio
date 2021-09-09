@@ -11,9 +11,6 @@ body {
     text-align: center;
     padding-top: 300px;   
 }
- h1{
-    font-weight: 600;
-}
 #mouse {
     margin-top: 150px;
 }
@@ -23,7 +20,7 @@ body {
 }
 
 p {
-    font-size: 20px;
+    font-size: 18px;
 }
 .service{
     background-image: url("../assets/backgrounds/s_image.jpg");
