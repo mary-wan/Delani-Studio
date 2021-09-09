@@ -30,7 +30,7 @@ p {
     color: white;
     text-align: center;
     height: 450px;
-    padding-top: 130px;
+    padding-top: 100px;
     padding-left: 10px;
     padding-right: 10px;
     width: 100%;
@@ -51,6 +51,11 @@ p {
     text-align: center;   
     overflow: hidden;
     margin-top: 70px;
+
+}
+.portfolio div{
+    width: fit-content;
+    height: fit-content;
 }
 .contact_us {
     background-image: url("../assets/backgrounds/c_image.jpg");
@@ -112,13 +117,13 @@ textarea {
 #work6_desc,
 #work7_desc,
 #work8_desc {
-    height: 270px;
-    width: 330px;
+    
     text-align: center;
-    padding-top: 100px;
+    padding: 100px 40px 70px 25px;
     margin-top: -300px;
     background-color: rgb(255, 255, 255, 0.2);
     position: absolute;
     color: white;
     display: none;
+    font-weight: bold;
 }
