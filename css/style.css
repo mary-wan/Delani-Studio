@@ -24,10 +24,6 @@ body {
 p {
     font-size: 20px;
 }
-/* .what_we_do{
-    justify-content: center;
-    margin: 10%;
-} */
 .service{
     background-image: url(/assets/backgrounds/s_image.jpg);
     background-repeat: no-repeat;
@@ -35,4 +31,11 @@ p {
     text-align: center;
     height: 400px;
     padding-top: 130px;
+}
+.what_we_do{
+    justify-content: center;
+    text-align: center;
+}
+.description1, .description2, .description3{
+    display: none;
 }
