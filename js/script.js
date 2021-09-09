@@ -1,15 +1,15 @@
 $(document).ready(function(){
     $(".design").click(function(){
-        $(".description1").toggle();
-        $("#desgn").toggle();
+        $(".description1").slideToggle();
+        $("#desgn").slideToggle();
     });
     $(".development").click(function(){
-        $(".description2").toggle();
-        $("#develop").toggle();
+        $(".description2").slideToggle();
+        $("#develop").slideToggle();
     });
     $(".prd_management").click(function(){
-        $(".description3").toggle();
-        $("#prd-mngt").toggle();
+        $(".description3").slideToggle();
+        $("#prd-mngt").slideToggle();
     });
     $(".work1").mouseover(function(){
         $("#work1_desc").show();
