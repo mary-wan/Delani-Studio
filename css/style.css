@@ -9,12 +9,13 @@ body {
     background-repeat: no-repeat;
     color: white;
     text-align: center;
-    padding-top: 300px;
-    
+    padding-top: 300px;   
 }
-
+ h1{
+    font-weight: 600;
+}
 #mouse {
-    margin-top: 200px;
+    margin-top: 150px;
 }
 
 .about {
@@ -31,6 +32,8 @@ p {
     text-align: center;
     height: 400px;
     padding-top: 130px;
+    padding-left: 10px;
+    padding-right: 10px;
     width: 100%;
 }
 .what_we_do{
@@ -75,4 +78,11 @@ input,textarea{
 .contact_us input,.contact_us textarea{
     border: solid 1px;
     border-color: white;
+}
+.social{
+    
+    text-align: center;
+}
+.social img{
+    padding:10px;
 }
