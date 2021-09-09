@@ -4,7 +4,7 @@ body {
 
 .header_intro {
     background-image: url("/assets/backgrounds/h_img.jpg");
-    height: 880px;
+    height: 860px;
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
@@ -14,7 +14,7 @@ body {
 }
 
 #mouse {
-    margin-top: 230px;
+    margin-top: 200px;
 }
 
 .about {
@@ -22,5 +22,17 @@ body {
 }
 
 p {
-    font-size: 18px;
+    font-size: 20px;
+}
+/* .what_we_do{
+    justify-content: center;
+    margin: 10%;
+} */
+.service{
+    background-image: url(/assets/backgrounds/s_image.jpg);
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    height: 400px;
+    padding-top: 130px;
 }
