@@ -50,6 +50,7 @@ p {
 .portfolio {
     text-align: center;   
     overflow: hidden;
+    margin-top: 70px;
 }
 .contact_us {
     background-image: url("../assets/backgrounds/c_image.jpg");
