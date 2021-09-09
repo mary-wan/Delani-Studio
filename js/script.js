@@ -11,4 +11,52 @@ $(document).ready(function(){
         $(".description3").toggle();
         $("#prd-mngt").toggle();
     });
+    $(".work1").mouseover(function(){
+        $("#work1_desc").show();
+    });
+    $(".work1").mouseout(function(){
+        $("#work1_desc").hide();
+    });
+    $(".work2").mouseover(function(){
+        $("#work2_desc").show();
+    });
+    $(".work2").mouseout(function(){
+        $("#work2_desc").hide();
+    });
+    $(".work3").mouseover(function(){
+        $("#work3_desc").show();
+    });
+    $(".work3").mouseout(function(){
+        $("#work3_desc").hide();
+    });
+    $(".work4").mouseover(function(){
+        $("#work4_desc").show();
+    });
+    $(".work4").mouseout(function(){
+        $("#work4_desc").hide();
+    });
+    $(".work5").mouseover(function(){
+        $("#work5_desc").show();
+    });
+    $(".work5").mouseout(function(){
+        $("#work5_desc").hide();
+    });
+    $(".work6").mouseover(function(){
+        $("#work6_desc").show();
+    });
+    $(".work6").mouseout(function(){
+        $("#work6_desc").hide();
+    });
+    $(".work7").mouseover(function(){
+        $("#work7_desc").show();
+    });
+    $(".work7").mouseout(function(){
+        $("#work7_desc").hide();
+    });
+    $(".work8").mouseover(function(){
+        $("#work8_desc").show();
+    });
+    $(".work8").mouseout(function(){
+        $("#work8_desc").hide();
+    });
 });
