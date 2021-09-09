@@ -3,14 +3,14 @@ body {
 }
 
 .header_intro {
-    background-image: url("/assets/backgrounds/h_img.jpg");
+    background-image: url("../assets/backgrounds/h_img.jpg");
     height: 860px;
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
     text-align: center;
     padding-top: 300px;
-
+    
 }
 
 #mouse {
@@ -25,12 +25,13 @@ p {
     font-size: 20px;
 }
 .service{
-    background-image: url(/assets/backgrounds/s_image.jpg);
+    background-image: url("../assets/backgrounds/s_image.jpg");
     background-repeat: no-repeat;
     color: white;
     text-align: center;
     height: 400px;
     padding-top: 130px;
+    width: 100%;
 }
 .what_we_do{
     justify-content: center;
@@ -41,4 +42,37 @@ p {
 }
 .portfolio{
     text-align: center;
+}
+.contact_us{
+    background-image: url("../assets/backgrounds/c_image.jpg");
+    background-repeat: no-repeat;
+    color: white;
+    height:700px ;
+    text-align: center;
+    width: 100%;
+   
+}
+.contact_us h2{
+    font-weight: 700;
+}
+.row{
+    justify-content: center;
+}
+input,textarea{
+    background-color: transparent;
+    color: white;
+}
+::placeholder{
+    color: white;
+}
+.detail input{
+    overflow: hidden;
+    width: 90%;
+}
+.contact_us textarea{
+    width: 60%;
+}
+.contact_us input,.contact_us textarea{
+    border: solid 1px;
+    border-color: white;
 }
