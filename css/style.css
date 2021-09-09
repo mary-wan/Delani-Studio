@@ -34,7 +34,7 @@ p {
     width: 100%;
 }
 .what_we_do{
-    justify-content: center;
+    justify-content: space-between;
     text-align: center;
 }
 .description1, .description2, .description3{
