@@ -9,12 +9,12 @@ body {
     background-repeat: no-repeat;
     color: white;
     text-align: center;
-    padding-top: 280px;
+    padding-top: 300px;
 }
 
 #mouse {
-    margin-top: 180px;
-    margin-bottom: 30px;
+    margin-top: 200px;
+    margin-bottom: 20px;
 }
 
 .about {
@@ -47,13 +47,12 @@ p {
 .description3 {
     display: none;
 }
-
 .portfolio {
     text-align: center;
-    margin-top: 70px; 
+    margin-top: 10px; 
     justify-content: center;
-    margin-left: 5%;  
-
+    padding-left: 15%;  
+    /* padding-right: 5%; */
 }
 .portfolio img{
     width: 100%;
@@ -120,18 +119,19 @@ textarea {
 #work6_desc,
 #work7_desc,
 #work8_desc {
-    
-    text-align: center;
-    padding: 30%;
-    width: 100%;
-    height: 100%;
-    background-color: rgb(255, 255, 255, 0.3);
+    border: solid 2px;
+    text-align: left;
+    border-color: white;
+    width: 75%;
+    height: 75%;
+    background-color: rgb(255, 255, 255, 0.2);
     position: absolute;
     top: 0px;
-    left: 0px;
+    padding-top: 10px;
+    margin: 10%;
     color: white;
     display: none;
-    font-weight: bold;
+    font-weight: 900;
 }
 .portfolio div{
     position: relative;
