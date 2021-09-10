@@ -21,9 +21,9 @@ body {
     text-align: center;
 }
 
-p {
+/* p {
     font-size: 18px;
-}
+} */
 
 .service {
     background-image: url("../assets/backgrounds/s_image.jpg");
