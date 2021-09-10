@@ -7,56 +7,56 @@ $(document).ready(function(){
         $(".description2").slideToggle();
         $("#develop").slideToggle();
     });
-    $(".prd_management").click(function(){
+    $(".prdManagement").click(function(){
         $(".description3").slideToggle();
-        $("#prd-mngt").slideToggle();
+        $("#productMngt").slideToggle();
     });
     $(".work1").mouseover(function(){
-        $("#work1_desc").show();
+        $("#work1Desc").show();
     });
     $(".work1").mouseout(function(){
-        $("#work1_desc").hide();
+        $("#work1Desc").hide();
     });
     $(".work2").mouseover(function(){
-        $("#work2_desc").show();
+        $("#work2Desc").show();
     });
     $(".work2").mouseout(function(){
-        $("#work2_desc").hide();
+        $("#work2Desc").hide();
     });
     $(".work3").mouseover(function(){
-        $("#work3_desc").show();
+        $("#work3Desc").show();
     });
     $(".work3").mouseout(function(){
-        $("#work3_desc").hide();
+        $("#work3Desc").hide();
     });
     $(".work4").mouseover(function(){
-        $("#work4_desc").show();
+        $("#work4Desc").show();
     });
     $(".work4").mouseout(function(){
-        $("#work4_desc").hide();
+        $("#work4Desc").hide();
     });
     $(".work5").mouseover(function(){
-        $("#work5_desc").show();
+        $("#work5Desc").show();
     });
     $(".work5").mouseout(function(){
-        $("#work5_desc").hide();
+        $("#work5Desc").hide();
     });
     $(".work6").mouseover(function(){
-        $("#work6_desc").show();
+        $("#work6Desc").show();
     });
     $(".work6").mouseout(function(){
-        $("#work6_desc").hide();
+        $("#work6Desc").hide();
     });
     $(".work7").mouseover(function(){
-        $("#work7_desc").show();
+        $("#work7Desc").show();
     });
     $(".work7").mouseout(function(){
-        $("#work7_desc").hide();
+        $("#work7Desc").hide();
     });
     $(".work8").mouseover(function(){
-        $("#work8_desc").show();
+        $("#work8Desc").show();
     });
     $(".work8").mouseout(function(){
-        $("#work8_desc").hide();
+        $("#work8Desc").hide();
     });
 });

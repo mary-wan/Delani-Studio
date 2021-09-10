@@ -111,15 +111,15 @@ textarea {
     padding: 10px;
 }
 
-#work1_desc,
-#work2_desc,
-#work3_desc,
-#work4_desc,
-#work5_desc,
-#work6_desc,
-#work7_desc,
-#work8_desc {
-    border: solid 2px;
+#work1Desc,
+#work2Desc,
+#work3Desc,
+#work4Desc,
+#work5Desc,
+#work6Desc,
+#work7Desc,
+#work8Desc {
+    border: solid 3px;
     text-align: left;
     border-color: white;
     width: 75%;
