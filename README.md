@@ -1,12 +1,11 @@
 # Delani Studio
 #### By Mary Njenga
 ### Site image
-![Project Image](assets/site.png)
+![Site Image](./assets/site.png)
 ## Table of Content
 + [Description](#description)
 + [Behaviour Driven Development](#Behaviour-Driven-Development)
 + [Installation Requirement](#Installation)
-+ [Design](#design)
 + [Technology Used](#technology-used)
 + [Licence](#licence)
 + [Authors Info](#author-Info)
