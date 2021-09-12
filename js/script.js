@@ -59,4 +59,12 @@ $(document).ready(function(){
     $(".work8").mouseout(function(){
         $("#work8Desc").hide();
     });
+    
+    $("#formFeedback").submit(function() {
+        var name = $("#name").val(); 
+        var email = $("#email").val(); 
+        var message = $("#feedback").val(); 
+
+        alert(name + " we have received your message. Thank you fro reaching out to us. ");
+         });
 });
