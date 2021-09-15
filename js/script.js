@@ -73,6 +73,6 @@ $(document).ready(function () {
         $("input#name").val("");
         $("input#email").val("");
         
-    }
+    };
 
 });
